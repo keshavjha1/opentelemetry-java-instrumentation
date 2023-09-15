@@ -3,7 +3,7 @@ name: Auto-update OpenTelemetry SDK
 on:
   schedule:
     # hourly at minute 46
-    - cron: "46 * * * *"
+    # - cron: "46 * * * *"
   workflow_dispatch:
 
 jobs:
